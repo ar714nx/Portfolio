@@ -50,11 +50,15 @@ nav a{
     margin-left: 5rem;
     text-decoration: none;
     border-bottom: 2px solid transparent;
+    transition: 0.4s ease-in;
 }
 nav a:hover,
 nav a.active {
     color: rgb(8, 144, 255);
     border-bottom: 2px solid rgb(8, 144, 255);
+    transform: scale(1.5);
+    font-size: 2rem;
+    
 }
 @media(max-width:995px){
 nav {
